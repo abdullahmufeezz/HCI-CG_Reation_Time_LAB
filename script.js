@@ -102,15 +102,12 @@ document.addEventListener("keydown", function (e) {
       wrongAttempts++;
       stimulusEl.classList.add("wrong");
     }
-
+    
     updateStats();
-
-    // GAME OVER CONDITION
     if (wrongAttempts >= 5) {
       endGame();
       return;
     }
-
     generateStimulus();
   }
 });
