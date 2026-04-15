@@ -10,10 +10,19 @@
 
   <h1>Reaction Time Lab</h1>
 
+  <!-- START / GAME OVER SCREEN -->
+  <div id="startScreen">
+    <h2>Press SPACE to Start</h2>
+    <p>Press A for Letters | L for Numbers</p>
+    <p>You have 5 wrong attempts</p>
+  </div>
+
+  <!-- GAME BOX -->
   <div class="box" id="stimulus">?</div>
 
-  <p>Press A for Letter | Press L for Number</p>
-  <p>Press Space to Reset</p>
+  <!-- STATUS -->
+  <p id="status">Waiting to start...</p>
+  <p>Wrong Attempts Left: <span id="lives">5</span></p>
 
   <h3>Stats</h3>
   <p>Trials: <span id="trials">0</span></p>
