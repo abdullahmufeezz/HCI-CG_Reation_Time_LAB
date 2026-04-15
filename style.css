@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  font-size: 100px;
+  border: 2px solid black;
+  padding: 40px;
+  display: inline-block;
+  margin: 30px;
+  min-width: 150px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
